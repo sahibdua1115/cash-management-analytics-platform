@@ -1,0 +1,7 @@
+fund_id,fund_name,category,risk_level
+101,Treasury Fund,Debt,Low
+102,Corporate Bond Fund,Debt,Medium
+103,Equity Growth Fund,Equity,High
+104,Index Fund,Equity,Medium
+105,Balanced Fund,Hybrid,Medium
+106,Liquid Fund,Cash,Low
