@@ -50,9 +50,10 @@ This project demonstrates:
 - Ability to translate raw data into actionable business insights
 
 ## Live Dashboard (Preview)
-Download the Tableau workbook from `/dashboard` or view the preview below.
+Download the Tableau workbook here:  
+[Download Dashboard](dashboard/cash_management_dashboard.twbx)
 
-  ## Dashboard Preview
+Or view the preview below.
 
 ![Dashboard Preview](dashboard/dashboard_preview.png)
 
