@@ -38,5 +38,12 @@ This project simulates a cash management analytics workflow similar to systems u
 3. Import CSV data into database  
 4. Run Python script:
 
+## Why This Project Matters
+This project demonstrates:
+- End-to-end data pipeline development (SQL → Python → reporting)
+- Strong SQL skills including joins and aggregations
+- Python-based data analysis and automation
+- Ability to translate raw data into actionable business insights
+  
 ```bash
 python3 python/data_analysis.py
