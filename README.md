@@ -1,5 +1,4 @@
 # Cash Management Analytics Platform
-
 Built an end-to-end analytics pipeline simulating asset management workflows, from data modeling to interactive dashboarding.
 
 ## Overview
