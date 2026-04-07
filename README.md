@@ -44,6 +44,10 @@ This project demonstrates:
 - Strong SQL skills including joins and aggregations
 - Python-based data analysis and automation
 - Ability to translate raw data into actionable business insights
-  
+
+  ## Dashboard Preview
+
+![Dashboard Preview](dashboard/dashboard_preview.png)
+
 ```bash
 python3 python/data_analysis.py
