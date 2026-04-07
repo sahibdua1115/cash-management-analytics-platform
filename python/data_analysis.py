@@ -60,8 +60,6 @@ print(category_investment)
 
 import os
 
-os.makedirs("outputs", exist_ok=True)
-
 print("DEBUG: reached save section")
 
 risk_investment.to_csv("outputs/total_investment_by_risk_profile.csv", header=True)
@@ -72,3 +70,7 @@ print("Saved: total_investment_per_client.csv ✅")
 
 category_investment.to_csv("outputs/total_investment_by_fund_category.csv", header=True)
 print("Saved: total_investment_by_fund_category.csv ✅")
+
+# Save merged dataset for Power BI
+df_merge.to_csv("outputs/merged_portfolio_analysis.csv", index=False)
+print("Saved: merged_portfolio_analysis.csv ✅")
