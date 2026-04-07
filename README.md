@@ -1,5 +1,7 @@
 # Cash Management Analytics Platform
 
+Built an end-to-end analytics pipeline simulating asset management workflows, from data modeling to interactive dashboarding.
+
 ## Overview
 This project simulates a cash management analytics workflow similar to systems used at asset management firms like BlackRock. It integrates SQL and Python to analyze portfolio data, generate client-level insights, and automate reporting outputs.
 
@@ -17,7 +19,10 @@ This project simulates a cash management analytics workflow similar to systems u
 ## Key Insights Generated
 - Total investment by risk profile  
 - Top clients by total investment  
-- Investment distribution by fund category  
+- Investment distribution by fund category
+
+## Business Value
+Enables identification of high-value clients, capital concentration across risk profiles, and asset allocation trends for better portfolio decision-making.
 
 ## Project Structure
 - `/data` → raw datasets  
@@ -44,6 +49,9 @@ This project demonstrates:
 - Strong SQL skills including joins and aggregations
 - Python-based data analysis and automation
 - Ability to translate raw data into actionable business insights
+
+## Live Dashboard (Preview)
+Download the Tableau workbook from `/dashboard` or view the preview below.
 
   ## Dashboard Preview
 
