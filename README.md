@@ -28,7 +28,7 @@ Enables identification of high-value clients, capital concentration across risk 
 - `/sql` → SQL scripts (table creation, joins, insights)  
 - `/python` → data analysis pipeline  
 - `/outputs` → generated business insight reports  
-- `/dashboard` → Power BI dashboard (to be added)
+- `/dashboard` → Tableau dashboard
 
 ## Output Files
 - `outputs/total_investment_by_risk_profile.csv`  
