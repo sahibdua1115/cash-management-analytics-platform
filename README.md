@@ -1,21 +1,49 @@
 # Cash Management Analytics Platform
 
 ## Overview
-This project simulates a BlackRock-style cash management system that enables portfolio analysis, client reporting, and risk monitoring.
+This project simulates a cash management analytics workflow similar to systems used at asset management firms like BlackRock. It integrates SQL and Python to analyze portfolio data, generate client-level insights, and automate reporting outputs.
 
 ## Tech Stack
-- SQL (data modeling & querying)
-- Python (data processing & automation)
-- Power BI (data visualization)
+- SQL (PostgreSQL) – data modeling and querying  
+- Python (pandas, psycopg2) – data processing and automation  
+- Power BI – data visualization (in progress)
 
-## Features (Planned)
-- Portfolio performance analysis
-- Risk exposure tracking
-- Automated reporting system
-- Client-level insights dashboard
+## Features
+- Relational data modeling for clients, funds, and portfolio holdings  
+- SQL joins and aggregation queries for business insights  
+- Python-based data pipeline to automate portfolio analysis  
+- Export of insights into CSV reports for downstream visualization  
+
+## Key Insights Generated
+- Total investment by risk profile  
+- Top clients by total investment  
+- Investment distribution by fund category  
 
 ## Project Structure
-- /data → datasets
-- /sql → SQL queries
-- /python → automation scripts
-- /dashboard → visualization files
+- `/data` → raw datasets  
+- `/sql` → SQL scripts (table creation, joins, insights)  
+- `/python` → data analysis pipeline  
+- `/outputs` → generated business insight reports  
+- `/dashboard` → Power BI dashboard (to be added)
+
+## Output Files
+- `outputs/total_investment_by_risk_profile.csv`  
+- `outputs/total_investment_per_client.csv`  
+- `outputs/total_investment_by_fund_category.csv`  
+- `outputs/merged_portfolio_analysis.csv`  
+
+## How to Run
+1. Set up PostgreSQL database  
+2. Run SQL scripts to create tables  
+3. Import CSV data into database  
+4. Run Python script:
+
+## Why This Project Matters
+This project demonstrates:
+- End-to-end data pipeline development (SQL → Python → reporting)
+- Strong SQL skills including joins and aggregations
+- Python-based data analysis and automation
+- Ability to translate raw data into actionable business insights
+  
+```bash
+python3 python/data_analysis.py

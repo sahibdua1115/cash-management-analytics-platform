@@ -43,6 +43,9 @@ df_merge = df_merge.merge(df_funds, how='inner', left_on='fund_id', right_on='fu
 print("Merged table preview:")
 print(df_merge.head())
 
+#----------------------------
+# 3️⃣ Buinsess Insights
+#----------------------------
 # Total investment by risk profile
 risk_investment = df_merge.groupby('risk_profile')['investment_amount'].sum().sort_values(ascending=False)
 print("Total investment by risk profile (high -> low):")
@@ -70,6 +73,7 @@ print("Saved: total_investment_per_client.csv ✅")
 
 category_investment.to_csv("outputs/total_investment_by_fund_category.csv", header=True)
 print("Saved: total_investment_by_fund_category.csv ✅")
+
 
 # Save merged dataset for Power BI
 df_merge.to_csv("outputs/merged_portfolio_analysis.csv", index=False)
